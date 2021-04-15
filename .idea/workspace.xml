@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/github/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -128,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,16 +243,17 @@
       <workItem from="1612220827527" duration="24394000" />
       <workItem from="1612305775183" duration="5041000" />
       <workItem from="1612496310569" duration="2000" />
+      <workItem from="1618449984764" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29437000" />
+    <option name="totallyTimeSpent" value="30023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="958" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17625134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/github/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
