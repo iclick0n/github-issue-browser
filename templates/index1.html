@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Issue Browser by Penghao Liang</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>title</td>
+            <td>issue #</td>
+            <td>state</td>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td>{{ item.title }}</td>
+            <td>{{ item.number }}</td>
+            <td>{{ item.state }}</td>
+            <td>
+                <form action="detail/" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="detail_data" value="{{item}}">
+                    <input type="submit" class="submit_btn btn label-success" value="view" />
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+    <div class="pagination">
+        <span class="step-links">
+            {% if data.has_previous %}
+                <a href="?page={{ data.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ data.number }} of {{ data.paginator.num_pages }}.
+            </span>
+
+            {% if data.has_next %}
+                <a href="?page={{ data.next_page_number }}">next</a>
+            {% endif %}
+        </span>
+    </div>
+</body>
+</html>
